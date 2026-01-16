@@ -86,8 +86,8 @@ Random Forest is a classifier that contains a number of decision trees on variou
 Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority votes of predictions, and it predicts the final output.
 
 
-![The image illustrates the process of ensemble learning using decision trees. It shows how multiple decision trees are generated from a dataset, and their results are combined to produce a final outcome. 1. **Dataset**: The process begins with a dataset that serves as input for generating decision trees. 2. **Decision Trees**: Multiple decision trees (e.g., Decision Tree-1, Decision Tree-2, ..., Decision Tree-N) are constructed independently from the same dataset. Each tree is represented by nodes and branches, where green nodes indicate decisions or splits, and blue nodes represent outcomes or leaf nodes. 3. **Results**: Each decision tree produces an individual result (Result-1, Result-2, ..., Result-N). 4. **Majority Voting/Averaging**: These individual results are then aggregated using techniques like majority voting or averaging to form a consensus or weighted average. 5. **Final Result**: The output of the aggregation step is the final prediction or classification result. This approach leverages the strengths of multiple models to improve overall predictive performance by reducing overfitting and increasing robustness.](Picture4.jpg)
-
+![image alt](https://github.com/Rogue5189/PREDICTION-OF-STOCK-VALUE-CHANGES-BASED-ON-THE-SENTIMENT-ANALYSIS-OF-NEWS-HEADLINES/blob/8271145bc45294e628abda313580a7adee84737a/pasted%20filey.png)
+ 
 <!-- Slide number: 14 -->
 # Passive Aggressive Classifier
 Passive-Aggressive algorithms are generally used for large-scale learning. It is one of the few ‘online-learning algorithms‘. In online machine learning algorithms, the input data comes in sequential order and the machine learning model is updated step-by-step, as opposed to batch learning, where the entire training dataset is used at once.
