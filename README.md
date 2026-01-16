@@ -196,3 +196,30 @@ Accuracy of Passive aggressive classifier, Random forest classifier and Multinom
 We have found out that Multinomial Naïve Bayes takes the word and gives it a value which is further used to calculate the sentiment of a particular headline.
 But it does not account for words who have a greater impact when grouped together i.e. “not good” will be treated as “not” and “good” but it has similar meaning as “bad”.
 We have tried to make an adaptive Multinomial Naïve Bayes classification model which can group two words who have a greater meaning together when calculating the probability of a sentence.
+
+<!-- Slide number: 26 -->
+
+
+<!-- Slide number: 27 -->
+
+<!-- Slide number: 28 -->
+# How a word is positive/negative sentiment
+Let us take an example of a negatively marked and positively marked sentence:
+-Amazon does a lot of frauds while delivery.      -->      negative
+-Flipkart delivery service is fast.		-->      positive
+Now if we consider the first sentence then :
+It will learn to associate the following words Amazon, does, lot, frauds, while, and delivery all as negative sentiments.
+Obviously we don’t want Amazon or delivery or lot to be in negative sentiment, so unlearning this will require training set instances with the word Amazon, delivery or lot in them that are labeled as positive.
+In the second sentence delivery is a positive sentiment word.
+
+<!-- Slide number: 29 -->
+# Conclusion
+From the above block diagram we can conclude the following : 
+We have got an accuracy of 51.23% for the model.
+We got to know that when we combined 2 words then words having no meaning were more as compared to the number of words that have a greater meaning when combined together.
+For now we merged only two words together but we can have a future scope of combining more than 2 words that have a greater impact as a whole.
+
+<!-- Slide number: 30 -->
+Optimizing the grouping of words in a more optimal manner according to their meaning.
+Enhancing the adaptive model to achieve better accuracy.
+Further optimizing the model for even better overall performance in terms of accuracy, time of training and in also when the model is working on real time data.
