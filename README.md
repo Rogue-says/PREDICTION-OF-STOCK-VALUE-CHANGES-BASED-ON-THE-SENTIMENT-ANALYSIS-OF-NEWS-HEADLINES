@@ -20,9 +20,6 @@ Data Preprocessing
 Construction of Bag of words
 Implementation of Decision Tree Classifier
 Implementation of Random Forest Classifier
-
-<!-- Slide number: 5 -->
-# Continued…
 Implementation of Passive Aggressive Classifier
 Implementation of Support Vector Machine
 Implementation of Multinomial Naïve Bayes Classifier
@@ -79,8 +76,6 @@ In a Decision tree, there are two nodes, which are the Decision Node and Leaf
 The decisions or the test are performed on the basis of features of the given dataset.
 It is a graphical representation for getting all the possible solutions to a problem/decision based on given conditions.
 
-<!-- Slide number: 11 -->
-# Continued…
 
 (Picture4.ppg)
 
@@ -90,8 +85,6 @@ Random Forest is a popular machine learning algorithm that belongs to the superv
 Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset.
 Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority votes of predictions, and it predicts the final output.
 
-<!-- Slide number: 13 -->
-# Continued…
 
 ![The image illustrates the process of ensemble learning using decision trees. It shows how multiple decision trees are generated from a dataset, and their results are combined to produce a final outcome. 1. **Dataset**: The process begins with a dataset that serves as input for generating decision trees. 2. **Decision Trees**: Multiple decision trees (e.g., Decision Tree-1, Decision Tree-2, ..., Decision Tree-N) are constructed independently from the same dataset. Each tree is represented by nodes and branches, where green nodes indicate decisions or splits, and blue nodes represent outcomes or leaf nodes. 3. **Results**: Each decision tree produces an individual result (Result-1, Result-2, ..., Result-N). 4. **Majority Voting/Averaging**: These individual results are then aggregated using techniques like majority voting or averaging to form a consensus or weighted average. 5. **Final Result**: The output of the aggregation step is the final prediction or classification result. This approach leverages the strengths of multiple models to improve overall predictive performance by reducing overfitting and increasing robustness.](Picture4.jpg)
 
@@ -114,8 +107,6 @@ Support Vector Machine or SVM is one of the most popular Supervised Learning alg
 The goal of the SVM algorithm is to create the best line or decision boundary that can segregate n-dimensional space into classes so that we can easily put the new data point in the correct category in the future. This best decision boundary is called a hyperplane.
 SVM chooses the extreme points/vectors that help in creating the hyperplane. These extreme cases are called as support vectors, and hence algorithm is termed as Support Vector Machine. Consider the below diagram in which there are two different categories that are classified using a decision boundary or hyperplane:
 
-<!-- Slide number: 17 -->
-# Continued…
 
 ![The image illustrates the concept of support vector machines (SVMs), specifically focusing on hyperplanes and margin in a two-dimensional space. - **Axes**: The diagram uses X1 and X2 as axes to represent different dimensions or features. - **Hyperplanes**: - There are two main hyperplanes depicted: one labeled "Positive Hyperplane" and another "Negative Hyperplane." - These hyperplanes separate data points into positive and negative classes, represented by blue diamonds and green circles respectively. - **Maximum Margin Hyperplane**: - A dashed line indicates the "Maximum Margin Hyperplane," which is the optimal decision boundary that maximizes the distance between itself and the nearest data points from either class. This is crucial in SVMs as it helps minimize classification error. - **Support Vectors**: - The points closest to the maximum margin hyperplane are marked as "Support Vectors." These vectors define the margin and are critical in determining the position of the decision boundary. - **Margin**: - The area between the positive and negative hyperplanes represents the "Margin," which is the largest possible gap between the two classes. The goal of an SVM is to find the hyperplane that maximizes this margin. Overall, the image effectively demonstrates how SVMs use support vectors and margins to classify data points into distinct categories while maximizing separation between them.](Picture4.jpg)
 
@@ -124,8 +115,6 @@ SVM chooses the extreme points/vectors that help in creating the hyperplane. The
 The multinomial Naive Bayes classifier is suitable for classification with discrete features (e.g., word counts for text classification). The multinomial distribution normally requires integer feature counts. However, in practice, fractional counts such as tf-idf may also work.
 
 
-<!-- Slide number: 19 -->
-# Continued…
 The term Multinomial Naive Bayes simply lets us know that each p(fi / c) is a multinomial distribution, rather than some other distribution. This works well for data which can easily be turned into counts, such as word counts in text.
 
 The distribution we had been using with Naive Bayes classifier is a Gaussian distribution, so I guess we could call it a Gaussian Naive Bayes classifier.
@@ -193,8 +182,7 @@ Training time of Multinomial Naïve Bayes and Passive Aggressive Classifier was 
 Whereas Training time of Random forest, Decision Tree, and Support Vector Machine have a better scope to be improved.
 Accuracy of Passive aggressive classifier, Random forest classifier and Multinomial classifier was found to be good enough and best as per our use case(Stock Sentiment).
 
-<!-- Slide number: 25 -->
-# Continued…
+
 We have found out that Multinomial Naïve Bayes takes the word and gives it a value which is further used to calculate the sentiment of a particular headline.
 But it does not account for words who have a greater impact when grouped together i.e. “not good” will be treated as “not” and “good” but it has similar meaning as “bad”.
 We have tried to make an adaptive Multinomial Naïve Bayes classification model which can group two words who have a greater meaning together when calculating the probability of a sentence.
