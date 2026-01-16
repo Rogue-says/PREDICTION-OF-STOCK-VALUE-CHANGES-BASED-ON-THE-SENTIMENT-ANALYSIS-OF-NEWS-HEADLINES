@@ -32,7 +32,7 @@ Comparing the models based on different parameters
 
 <!-- Slide number: 6 -->
 # Dataset
-https://github.com/Rogue5189/PREDICTION-OF-STOCK-VALUE-CHANGES-BASED-ON-THE-SENTIMENT-ANALYSIS-OF-NEWS-HEADLINES/blob/cd65228abc3638854a1084d29c8e05fa8c592968/pasted%20file.png
+![image alt](https://github.com/Rogue5189/PREDICTION-OF-STOCK-VALUE-CHANGES-BASED-ON-THE-SENTIMENT-ANALYSIS-OF-NEWS-HEADLINES/blob/cd65228abc3638854a1084d29c8e05fa8c592968/pasted%20file.png)
 
 <!-- Slide number: 7 -->
 # Exploratory Data Analysis
